@@ -4,7 +4,7 @@
 
 using namespace std;
 
-#define THREADCOUNT 4
+#define THREADCOUNT 5
 
 HANDLE Thread[THREADCOUNT];
 HANDLE Mutex;
@@ -269,6 +269,6 @@ int lab3_init()
 	CloseHandle(Mutex);
 
 	cout << endl;
-	system("pause");
+
 	return 0;
 }
